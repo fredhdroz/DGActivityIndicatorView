@@ -7,5 +7,7 @@ xcuserdata
 *.hmap
 *.ipa
 *.xcuserstate
+*.xcuserstate
 *.xcscmblueprint
+DGActivityIndicator.xcodeproj/project.xcworkspace/xcuserdata
 .DS_Store
