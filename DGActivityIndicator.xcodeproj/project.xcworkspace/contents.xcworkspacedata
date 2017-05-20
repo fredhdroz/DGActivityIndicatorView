@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DGActivityIndicatorExample.xcodeproj">
+      location = "self:DGActivityIndicator.xcodeproj">
    </FileRef>
 </Workspace>

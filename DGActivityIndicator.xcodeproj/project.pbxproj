@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61B8F851ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F3E1ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F861ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F3F1ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.m */; };
+		B61B8F871ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F401ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F881ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F411ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.m */; };
+		B61B8F891ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F421ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F8A1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F431ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.m */; };
+		B61B8F8B1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F441ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F8C1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F451ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */; };
+		B61B8F8D1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F461ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F8E1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F471ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */; };
+		B61B8F8F1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F481ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F901ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F491ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.m */; };
+		B61B8F911ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F4A1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F921ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F4B1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.m */; };
+		B61B8F931ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F4C1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F941ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F4D1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.m */; };
+		B61B8F951ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F4E1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F961ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F4F1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.m */; };
+		B61B8F971ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F501ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F981ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F511ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.m */; };
+		B61B8F991ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F521ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F9A1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F531ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.m */; };
+		B61B8F9B1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F541ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F9C1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F551ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.m */; };
+		B61B8F9D1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F561ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8F9E1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F571ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.m */; };
+		B61B8F9F1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F581ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FA01ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F591ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */; };
+		B61B8FA11ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F5A1ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FA21ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F5B1ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.m */; };
+		B61B8FA31ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F5C1ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FA41ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F5D1ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.m */; };
+		B61B8FA51ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F5E1ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FA61ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F5F1ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.m */; };
+		B61B8FA71ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F601ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FA81ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F611ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */; };
+		B61B8FA91ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F621ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FAA1ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F631ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.m */; };
+		B61B8FAB1ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F641ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FAC1ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F651ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.m */; };
+		B61B8FAD1ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F661ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FAE1ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F671ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.m */; };
+		B61B8FAF1ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F681ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FB01ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F691ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.m */; };
+		B61B8FB11ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F6A1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FB21ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F6B1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.m */; };
+		B61B8FB31ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F6C1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FB41ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F6D1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.m */; };
+		B61B8FB51ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F6E1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FB61ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F6F1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */; };
+		B61B8FB71ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F701ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FB81ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F711ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.m */; };
+		B61B8FB91ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F721ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FBA1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F731ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.m */; };
+		B61B8FBB1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F741ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FBC1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F751ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.m */; };
+		B61B8FBD1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F761ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FBE1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F771ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.m */; };
+		B61B8FBF1ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F781ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FC01ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F791ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.m */; };
+		B61B8FC11ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F7A1ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FC21ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F7B1ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */; };
+		B61B8FC31ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F7C1ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FC41ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F7D1ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.m */; };
+		B61B8FC51ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F7E1ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FC61ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F7F1ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.m */; };
+		B61B8FC71ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F801ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FC81ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F811ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.m */; };
+		B61B8FC91ED0A85B0058CCC8 /* DGActivityIndicatorAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F821ED0A85B0058CCC8 /* DGActivityIndicatorAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FCA1ED0A85B0058CCC8 /* DGActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8F831ED0A85B0058CCC8 /* DGActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61B8FCB1ED0A85B0058CCC8 /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8F841ED0A85B0058CCC8 /* DGActivityIndicatorView.m */; };
+		B61B8FD41ED0A8800058CCC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8FD31ED0A8800058CCC8 /* main.m */; };
+		B61B8FD71ED0A8800058CCC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8FD61ED0A8800058CCC8 /* AppDelegate.m */; };
+		B61B8FDA1ED0A8800058CCC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8FD91ED0A8800058CCC8 /* ViewController.m */; };
+		B61B8FDD1ED0A8800058CCC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61B8FDB1ED0A8800058CCC8 /* Main.storyboard */; };
+		B61B8FE21ED0A8800058CCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61B8FE01ED0A8800058CCC8 /* LaunchScreen.storyboard */; };
+		B61B8FE81ED0AB750058CCC8 /* DGActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = B61B8FE71ED0AB750058CCC8 /* DGActivityIndicator.h */; };
+		B61B8FE91ED0ACA30058CCC8 /* DGActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61B8F2B1ED0A7830058CCC8 /* DGActivityIndicator.framework */; };
+		B61B8FEB1ED0ACB30058CCC8 /* DGActivityIndicator.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B61B8F2B1ED0A7830058CCC8 /* DGActivityIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B61B8FEF1ED0ADE30058CCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61B8FEE1ED0ADE30058CCC8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B61B8FEC1ED0ACB90058CCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B61B8F221ED0A7830058CCC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B61B8F2A1ED0A7830058CCC8;
+			remoteInfo = DGActivityIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B61B8FEA1ED0ACA90058CCC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B61B8FEB1ED0ACB30058CCC8 /* DGActivityIndicator.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B61B8F2B1ED0A7830058CCC8 /* DGActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61B8F3A1ED0A82C0058CCC8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61B8F3E1ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorAnimation.h; sourceTree = "<group>"; };
+		B61B8F3F1ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorAnimation.m; sourceTree = "<group>"; };
+		B61B8F401ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallBeatAnimation.h; sourceTree = "<group>"; };
+		B61B8F411ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallBeatAnimation.m; sourceTree = "<group>"; };
+		B61B8F421ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallClipRotateAnimation.h; sourceTree = "<group>"; };
+		B61B8F431ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallClipRotateAnimation.m; sourceTree = "<group>"; };
+		B61B8F441ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallClipRotateMultipleAnimation.h; sourceTree = "<group>"; };
+		B61B8F451ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallClipRotateMultipleAnimation.m; sourceTree = "<group>"; };
+		B61B8F461ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallClipRotatePulseAnimation.h; sourceTree = "<group>"; };
+		B61B8F471ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallClipRotatePulseAnimation.m; sourceTree = "<group>"; };
+		B61B8F481ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallGridBeatAnimation.h; sourceTree = "<group>"; };
+		B61B8F491ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallGridBeatAnimation.m; sourceTree = "<group>"; };
+		B61B8F4A1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallGridPulseAnimation.h; sourceTree = "<group>"; };
+		B61B8F4B1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallGridPulseAnimation.m; sourceTree = "<group>"; };
+		B61B8F4C1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallPulseAnimation.h; sourceTree = "<group>"; };
+		B61B8F4D1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallPulseAnimation.m; sourceTree = "<group>"; };
+		B61B8F4E1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallPulseSyncAnimation.h; sourceTree = "<group>"; };
+		B61B8F4F1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallPulseSyncAnimation.m; sourceTree = "<group>"; };
+		B61B8F501ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallRotateAnimation.h; sourceTree = "<group>"; };
+		B61B8F511ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallRotateAnimation.m; sourceTree = "<group>"; };
+		B61B8F521ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleAnimation.h; sourceTree = "<group>"; };
+		B61B8F531ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleAnimation.m; sourceTree = "<group>"; };
+		B61B8F541ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleMultipleAnimation.h; sourceTree = "<group>"; };
+		B61B8F551ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleMultipleAnimation.m; sourceTree = "<group>"; };
+		B61B8F561ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleRippleAnimation.h; sourceTree = "<group>"; };
+		B61B8F571ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleRippleAnimation.m; sourceTree = "<group>"; };
+		B61B8F581ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallScaleRippleMultipleAnimation.h; sourceTree = "<group>"; };
+		B61B8F591ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallScaleRippleMultipleAnimation.m; sourceTree = "<group>"; };
+		B61B8F5A1ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallSpinFadeLoader.h; sourceTree = "<group>"; };
+		B61B8F5B1ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallSpinFadeLoader.m; sourceTree = "<group>"; };
+		B61B8F5C1ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallTrianglePathAnimation.h; sourceTree = "<group>"; };
+		B61B8F5D1ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallTrianglePathAnimation.m; sourceTree = "<group>"; };
+		B61B8F5E1ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallZigZagAnimation.h; sourceTree = "<group>"; };
+		B61B8F5F1ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallZigZagAnimation.m; sourceTree = "<group>"; };
+		B61B8F601ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorBallZigZagDeflectAnimation.h; sourceTree = "<group>"; };
+		B61B8F611ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorBallZigZagDeflectAnimation.m; sourceTree = "<group>"; };
+		B61B8F621ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorCookieTerminatorAnimation.h; sourceTree = "<group>"; };
+		B61B8F631ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorCookieTerminatorAnimation.m; sourceTree = "<group>"; };
+		B61B8F641ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorDoubleBounceAnimation.h; sourceTree = "<group>"; };
+		B61B8F651ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorDoubleBounceAnimation.m; sourceTree = "<group>"; };
+		B61B8F661ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorFiveDotsAnimation.h; sourceTree = "<group>"; };
+		B61B8F671ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorFiveDotsAnimation.m; sourceTree = "<group>"; };
+		B61B8F681ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScaleAnimation.h; sourceTree = "<group>"; };
+		B61B8F691ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScaleAnimation.m; sourceTree = "<group>"; };
+		B61B8F6A1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScalePartyAnimation.h; sourceTree = "<group>"; };
+		B61B8F6B1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScalePartyAnimation.m; sourceTree = "<group>"; };
+		B61B8F6C1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScalePulseOutAnimation.h; sourceTree = "<group>"; };
+		B61B8F6D1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScalePulseOutAnimation.m; sourceTree = "<group>"; };
+		B61B8F6E1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorLineScalePulseOutRapidAnimation.h; sourceTree = "<group>"; };
+		B61B8F6F1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorLineScalePulseOutRapidAnimation.m; sourceTree = "<group>"; };
+		B61B8F701ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorNineDotsAnimation.h; sourceTree = "<group>"; };
+		B61B8F711ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorNineDotsAnimation.m; sourceTree = "<group>"; };
+		B61B8F721ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorRotatingSandglassAnimation.h; sourceTree = "<group>"; };
+		B61B8F731ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorRotatingSandglassAnimation.m; sourceTree = "<group>"; };
+		B61B8F741ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorRotatingSquaresAnimation.h; sourceTree = "<group>"; };
+		B61B8F751ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorRotatingSquaresAnimation.m; sourceTree = "<group>"; };
+		B61B8F761ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorRotatingTrigonAnimation.h; sourceTree = "<group>"; };
+		B61B8F771ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorRotatingTrigonAnimation.m; sourceTree = "<group>"; };
+		B61B8F781ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorThreeDotsAnimation.h; sourceTree = "<group>"; };
+		B61B8F791ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorThreeDotsAnimation.m; sourceTree = "<group>"; };
+		B61B8F7A1ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTriangleSkewSpinAnimation.h; sourceTree = "<group>"; };
+		B61B8F7B1ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTriangleSkewSpinAnimation.m; sourceTree = "<group>"; };
+		B61B8F7C1ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTriplePulseAnimation.h; sourceTree = "<group>"; };
+		B61B8F7D1ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTriplePulseAnimation.m; sourceTree = "<group>"; };
+		B61B8F7E1ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTripleRingsAnimation.h; sourceTree = "<group>"; };
+		B61B8F7F1ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTripleRingsAnimation.m; sourceTree = "<group>"; };
+		B61B8F801ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorTwoDotsAnimation.h; sourceTree = "<group>"; };
+		B61B8F811ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorTwoDotsAnimation.m; sourceTree = "<group>"; };
+		B61B8F821ED0A85B0058CCC8 /* DGActivityIndicatorAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorAnimationProtocol.h; sourceTree = "<group>"; };
+		B61B8F831ED0A85B0058CCC8 /* DGActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGActivityIndicatorView.h; sourceTree = "<group>"; };
+		B61B8F841ED0A85B0058CCC8 /* DGActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGActivityIndicatorView.m; sourceTree = "<group>"; };
+		B61B8FD01ED0A8800058CCC8 /* DGActivityIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DGActivityIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B61B8FD31ED0A8800058CCC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B61B8FD51ED0A8800058CCC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B61B8FD61ED0A8800058CCC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B61B8FD81ED0A8800058CCC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B61B8FD91ED0A8800058CCC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B61B8FDC1ED0A8800058CCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B61B8FE11ED0A8800058CCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B61B8FE31ED0A8800058CCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61B8FE71ED0AB750058CCC8 /* DGActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGActivityIndicator.h; path = Framework/DGActivityIndicator.h; sourceTree = SOURCE_ROOT; };
+		B61B8FEE1ED0ADE30058CCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61B8F271ED0A7830058CCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61B8FCD1ED0A8800058CCC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61B8FE91ED0ACA30058CCC8 /* DGActivityIndicator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61B8F211ED0A7830058CCC8 = {
+			isa = PBXGroup;
+			children = (
+				B61B8F361ED0A8160058CCC8 /* Framework */,
+				B61B8FD11ED0A8800058CCC8 /* Demo */,
+				B61B8F2C1ED0A7830058CCC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B61B8F2C1ED0A7830058CCC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61B8F2B1ED0A7830058CCC8 /* DGActivityIndicator.framework */,
+				B61B8FD01ED0A8800058CCC8 /* DGActivityIndicatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B61B8F361ED0A8160058CCC8 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B61B8FE71ED0AB750058CCC8 /* DGActivityIndicator.h */,
+				B61B8F371ED0A81D0058CCC8 /* Sources */,
+				B61B8F381ED0A82C0058CCC8 /* Supporting Files */,
+			);
+			name = Framework;
+			path = DGActivityIndicator;
+			sourceTree = "<group>";
+		};
+		B61B8F371ED0A81D0058CCC8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B61B8F821ED0A85B0058CCC8 /* DGActivityIndicatorAnimationProtocol.h */,
+				B61B8F831ED0A85B0058CCC8 /* DGActivityIndicatorView.h */,
+				B61B8F841ED0A85B0058CCC8 /* DGActivityIndicatorView.m */,
+				B61B8F3D1ED0A85B0058CCC8 /* Animations */,
+			);
+			name = Sources;
+			path = Framework/Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		B61B8F381ED0A82C0058CCC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61B8F3A1ED0A82C0058CCC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "Framework/Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		B61B8F3D1ED0A85B0058CCC8 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B61B8F3E1ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.h */,
+				B61B8F3F1ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.m */,
+				B61B8F401ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.h */,
+				B61B8F411ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.m */,
+				B61B8F421ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.h */,
+				B61B8F431ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.m */,
+				B61B8F441ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h */,
+				B61B8F451ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m */,
+				B61B8F461ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h */,
+				B61B8F471ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.m */,
+				B61B8F481ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.h */,
+				B61B8F491ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.m */,
+				B61B8F4A1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.h */,
+				B61B8F4B1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.m */,
+				B61B8F4C1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.h */,
+				B61B8F4D1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.m */,
+				B61B8F4E1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.h */,
+				B61B8F4F1ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.m */,
+				B61B8F501ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.h */,
+				B61B8F511ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.m */,
+				B61B8F521ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.h */,
+				B61B8F531ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.m */,
+				B61B8F541ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.h */,
+				B61B8F551ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.m */,
+				B61B8F561ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.h */,
+				B61B8F571ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.m */,
+				B61B8F581ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h */,
+				B61B8F591ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m */,
+				B61B8F5A1ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.h */,
+				B61B8F5B1ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.m */,
+				B61B8F5C1ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.h */,
+				B61B8F5D1ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.m */,
+				B61B8F5E1ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.h */,
+				B61B8F5F1ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.m */,
+				B61B8F601ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.h */,
+				B61B8F611ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m */,
+				B61B8F621ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.h */,
+				B61B8F631ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.m */,
+				B61B8F641ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.h */,
+				B61B8F651ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.m */,
+				B61B8F661ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.h */,
+				B61B8F671ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.m */,
+				B61B8F681ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.h */,
+				B61B8F691ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.m */,
+				B61B8F6A1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.h */,
+				B61B8F6B1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.m */,
+				B61B8F6C1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.h */,
+				B61B8F6D1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.m */,
+				B61B8F6E1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h */,
+				B61B8F6F1ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m */,
+				B61B8F701ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.h */,
+				B61B8F711ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.m */,
+				B61B8F721ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.h */,
+				B61B8F731ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.m */,
+				B61B8F741ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.h */,
+				B61B8F751ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.m */,
+				B61B8F761ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.h */,
+				B61B8F771ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.m */,
+				B61B8F781ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.h */,
+				B61B8F791ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.m */,
+				B61B8F7A1ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.h */,
+				B61B8F7B1ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.m */,
+				B61B8F7C1ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.h */,
+				B61B8F7D1ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.m */,
+				B61B8F7E1ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.h */,
+				B61B8F7F1ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.m */,
+				B61B8F801ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.h */,
+				B61B8F811ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B61B8FD11ED0A8800058CCC8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B61B8FD51ED0A8800058CCC8 /* AppDelegate.h */,
+				B61B8FD61ED0A8800058CCC8 /* AppDelegate.m */,
+				B61B8FD81ED0A8800058CCC8 /* ViewController.h */,
+				B61B8FD91ED0A8800058CCC8 /* ViewController.m */,
+				B61B8FDB1ED0A8800058CCC8 /* Main.storyboard */,
+				B61B8FE01ED0A8800058CCC8 /* LaunchScreen.storyboard */,
+				B61B8FE31ED0A8800058CCC8 /* Info.plist */,
+				B61B8FEE1ED0ADE30058CCC8 /* Assets.xcassets */,
+				B61B8FD21ED0A8800058CCC8 /* Supporting Files */,
+			);
+			name = Demo;
+			path = DGActivityIndicatorDemo;
+			sourceTree = "<group>";
+		};
+		B61B8FD21ED0A8800058CCC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61B8FD31ED0A8800058CCC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B61B8F281ED0A7830058CCC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61B8F911ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.h in Headers */,
+				B61B8F8B1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.h in Headers */,
+				B61B8FC51ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.h in Headers */,
+				B61B8FC11ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.h in Headers */,
+				B61B8FAF1ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.h in Headers */,
+				B61B8F9B1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.h in Headers */,
+				B61B8FBF1ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.h in Headers */,
+				B61B8F891ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.h in Headers */,
+				B61B8FB91ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.h in Headers */,
+				B61B8FB51ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.h in Headers */,
+				B61B8F9F1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.h in Headers */,
+				B61B8F8D1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.h in Headers */,
+				B61B8FC31ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.h in Headers */,
+				B61B8F871ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.h in Headers */,
+				B61B8FBB1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.h in Headers */,
+				B61B8FA51ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.h in Headers */,
+				B61B8F8F1ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.h in Headers */,
+				B61B8F951ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.h in Headers */,
+				B61B8FCA1ED0A85B0058CCC8 /* DGActivityIndicatorView.h in Headers */,
+				B61B8FAD1ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.h in Headers */,
+				B61B8F851ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.h in Headers */,
+				B61B8FB31ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.h in Headers */,
+				B61B8FA91ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.h in Headers */,
+				B61B8FE81ED0AB750058CCC8 /* DGActivityIndicator.h in Headers */,
+				B61B8FB11ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.h in Headers */,
+				B61B8FA71ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.h in Headers */,
+				B61B8FC71ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.h in Headers */,
+				B61B8FA31ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.h in Headers */,
+				B61B8FC91ED0A85B0058CCC8 /* DGActivityIndicatorAnimationProtocol.h in Headers */,
+				B61B8F991ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.h in Headers */,
+				B61B8F9D1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.h in Headers */,
+				B61B8F971ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.h in Headers */,
+				B61B8FA11ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.h in Headers */,
+				B61B8F931ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.h in Headers */,
+				B61B8FB71ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.h in Headers */,
+				B61B8FBD1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.h in Headers */,
+				B61B8FAB1ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B61B8F2A1ED0A7830058CCC8 /* DGActivityIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61B8F331ED0A7830058CCC8 /* Build configuration list for PBXNativeTarget "DGActivityIndicator" */;
+			buildPhases = (
+				B61B8F261ED0A7830058CCC8 /* Sources */,
+				B61B8F271ED0A7830058CCC8 /* Frameworks */,
+				B61B8F281ED0A7830058CCC8 /* Headers */,
+				B61B8F291ED0A7830058CCC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGActivityIndicator;
+			productName = DGActivityIndicator;
+			productReference = B61B8F2B1ED0A7830058CCC8 /* DGActivityIndicator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B61B8FCF1ED0A8800058CCC8 /* DGActivityIndicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61B8FE41ED0A8800058CCC8 /* Build configuration list for PBXNativeTarget "DGActivityIndicatorDemo" */;
+			buildPhases = (
+				B61B8FCC1ED0A8800058CCC8 /* Sources */,
+				B61B8FCD1ED0A8800058CCC8 /* Frameworks */,
+				B61B8FCE1ED0A8800058CCC8 /* Resources */,
+				B61B8FEA1ED0ACA90058CCC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B61B8FED1ED0ACB90058CCC8 /* PBXTargetDependency */,
+			);
+			name = DGActivityIndicatorDemo;
+			productName = DGActivityIndicatorDemo;
+			productReference = B61B8FD01ED0A8800058CCC8 /* DGActivityIndicatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B61B8F221ED0A7830058CCC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DG;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					B61B8F2A1ED0A7830058CCC8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					B61B8FCF1ED0A8800058CCC8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B61B8F251ED0A7830058CCC8 /* Build configuration list for PBXProject "DGActivityIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B61B8F211ED0A7830058CCC8;
+			productRefGroup = B61B8F2C1ED0A7830058CCC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61B8F2A1ED0A7830058CCC8 /* DGActivityIndicator */,
+				B61B8FCF1ED0A8800058CCC8 /* DGActivityIndicatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61B8F291ED0A7830058CCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61B8FCE1ED0A8800058CCC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61B8FE21ED0A8800058CCC8 /* LaunchScreen.storyboard in Resources */,
+				B61B8FEF1ED0ADE30058CCC8 /* Assets.xcassets in Resources */,
+				B61B8FDD1ED0A8800058CCC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61B8F261ED0A7830058CCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61B8F981ED0A85B0058CCC8 /* DGActivityIndicatorBallRotateAnimation.m in Sources */,
+				B61B8F8E1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
+				B61B8F9C1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
+				B61B8F9E1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */,
+				B61B8FB61ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
+				B61B8F921ED0A85B0058CCC8 /* DGActivityIndicatorBallGridPulseAnimation.m in Sources */,
+				B61B8FBE1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */,
+				B61B8FBA1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */,
+				B61B8F861ED0A85B0058CCC8 /* DGActivityIndicatorAnimation.m in Sources */,
+				B61B8FAE1ED0A85B0058CCC8 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
+				B61B8F941ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseAnimation.m in Sources */,
+				B61B8FC21ED0A85B0058CCC8 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
+				B61B8FB41ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
+				B61B8FA21ED0A85B0058CCC8 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */,
+				B61B8F881ED0A85B0058CCC8 /* DGActivityIndicatorBallBeatAnimation.m in Sources */,
+				B61B8FBC1ED0A85B0058CCC8 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */,
+				B61B8FA01ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
+				B61B8F901ED0A85B0058CCC8 /* DGActivityIndicatorBallGridBeatAnimation.m in Sources */,
+				B61B8FC41ED0A85B0058CCC8 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */,
+				B61B8F8C1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
+				B61B8FA41ED0A85B0058CCC8 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */,
+				B61B8FC81ED0A85B0058CCC8 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */,
+				B61B8FCB1ED0A85B0058CCC8 /* DGActivityIndicatorView.m in Sources */,
+				B61B8FC61ED0A85B0058CCC8 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
+				B61B8F8A1ED0A85B0058CCC8 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
+				B61B8F9A1ED0A85B0058CCC8 /* DGActivityIndicatorBallScaleAnimation.m in Sources */,
+				B61B8FB21ED0A85B0058CCC8 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */,
+				B61B8F961ED0A85B0058CCC8 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */,
+				B61B8FB81ED0A85B0058CCC8 /* DGActivityIndicatorNineDotsAnimation.m in Sources */,
+				B61B8FB01ED0A85B0058CCC8 /* DGActivityIndicatorLineScaleAnimation.m in Sources */,
+				B61B8FA61ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */,
+				B61B8FAC1ED0A85B0058CCC8 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */,
+				B61B8FC01ED0A85B0058CCC8 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */,
+				B61B8FAA1ED0A85B0058CCC8 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */,
+				B61B8FA81ED0A85B0058CCC8 /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61B8FCC1ED0A8800058CCC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61B8FDA1ED0A8800058CCC8 /* ViewController.m in Sources */,
+				B61B8FD71ED0A8800058CCC8 /* AppDelegate.m in Sources */,
+				B61B8FD41ED0A8800058CCC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B61B8FED1ED0ACB90058CCC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B61B8F2A1ED0A7830058CCC8 /* DGActivityIndicator */;
+			targetProxy = B61B8FEC1ED0ACB90058CCC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B61B8FDB1ED0A8800058CCC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61B8FDC1ED0A8800058CCC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B61B8FE01ED0A8800058CCC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B61B8FE11ED0A8800058CCC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B61B8F311ED0A7830058CCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B61B8F321ED0A7830058CCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B61B8F341ED0A7830058CCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilgontovnik.DGActivityIndicator.DGActivityIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B61B8F351ED0A7830058CCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Framework/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilgontovnik.DGActivityIndicator.DGActivityIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B61B8FE51ED0A8800058CCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DGActivityIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilgontovnik.DGActivityIndicator.DGActivityIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B61B8FE61ED0A8800058CCC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DGActivityIndicatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danilgontovnik.DGActivityIndicator.DGActivityIndicatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61B8F251ED0A7830058CCC8 /* Build configuration list for PBXProject "DGActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61B8F311ED0A7830058CCC8 /* Debug */,
+				B61B8F321ED0A7830058CCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61B8F331ED0A7830058CCC8 /* Build configuration list for PBXNativeTarget "DGActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61B8F341ED0A7830058CCC8 /* Debug */,
+				B61B8F351ED0A7830058CCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B61B8FE41ED0A8800058CCC8 /* Build configuration list for PBXNativeTarget "DGActivityIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61B8FE51ED0A8800058CCC8 /* Debug */,
+				B61B8FE61ED0A8800058CCC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B61B8F221ED0A7830058CCC8 /* Project object */;
+}

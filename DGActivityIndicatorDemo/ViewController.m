@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
-    
     self.view.backgroundColor = [UIColor colorWithRed:237/255.0f green:85/255.0f blue:101/255.0f alpha:1.0f];
     
     NSArray *activityTypes = @[@(DGActivityIndicatorAnimationTypeNineDots),
@@ -64,6 +62,11 @@
         [self.view addSubview:activityIndicatorView];
         [activityIndicatorView startAnimating];
     }
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 @end
