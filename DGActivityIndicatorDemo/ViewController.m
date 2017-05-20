@@ -53,12 +53,15 @@
                                @(DGActivityIndicatorAnimationTypeCookieTerminator),
                                @(DGActivityIndicatorAnimationTypeBallSpinFadeLoader)];
 
+    NSInteger numberPerLine = 6;
+    NSInteger lineCount = activityTypes.count / numberPerLine + 1;
+
     for (int i = 0; i < activityTypes.count; i++) {
         DGActivityIndicatorView *activityIndicatorView = [[DGActivityIndicatorView alloc] initWithType:(DGActivityIndicatorAnimationType)[activityTypes[i] integerValue] tintColor:[UIColor whiteColor]];
-        CGFloat width = self.view.bounds.size.width / 5.0f;
-        CGFloat height = self.view.bounds.size.height / 7.0f;
+        CGFloat width = self.view.bounds.size.width / numberPerLine;
+        CGFloat height = (self.view.bounds.size.height - 100.0f) / lineCount;
 
-        activityIndicatorView.frame = CGRectMake(width * (i % 7), height * (int)(i / 7), width, height);
+        activityIndicatorView.frame = CGRectMake(width * (i % numberPerLine), height * (int)(i / numberPerLine), width, height);
         [self.view addSubview:activityIndicatorView];
         [activityIndicatorView startAnimating];
     }

@@ -86,6 +86,7 @@
 		B61B8FE91ED0ACA30058CCC8 /* DGActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61B8F2B1ED0A7830058CCC8 /* DGActivityIndicator.framework */; };
 		B61B8FEB1ED0ACB30058CCC8 /* DGActivityIndicator.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B61B8F2B1ED0A7830058CCC8 /* DGActivityIndicator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B61B8FEF1ED0ADE30058CCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B61B8FEE1ED0ADE30058CCC8 /* Assets.xcassets */; };
+		B61B8FF41ED0B2180058CCC8 /* SingleIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B8FF31ED0B2180058CCC8 /* SingleIndicatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,6 +196,8 @@
 		B61B8FE11ED0A8800058CCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B61B8FE31ED0A8800058CCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B61B8FEE1ED0ADE30058CCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B61B8FF21ED0B2180058CCC8 /* SingleIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleIndicatorViewController.h; sourceTree = "<group>"; };
+		B61B8FF31ED0B2180058CCC8 /* SingleIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleIndicatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +350,8 @@
 				B61B8FD61ED0A8800058CCC8 /* AppDelegate.m */,
 				B61B8FD81ED0A8800058CCC8 /* ViewController.h */,
 				B61B8FD91ED0A8800058CCC8 /* ViewController.m */,
+				B61B8FF21ED0B2180058CCC8 /* SingleIndicatorViewController.h */,
+				B61B8FF31ED0B2180058CCC8 /* SingleIndicatorViewController.m */,
 				B61B8FDB1ED0A8800058CCC8 /* Main.storyboard */,
 				B61B8FE01ED0A8800058CCC8 /* LaunchScreen.storyboard */,
 				B61B8FE31ED0A8800058CCC8 /* Info.plist */,
@@ -556,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61B8FF41ED0B2180058CCC8 /* SingleIndicatorViewController.m in Sources */,
 				B61B8FDA1ED0A8800058CCC8 /* ViewController.m in Sources */,
 				B61B8FD71ED0A8800058CCC8 /* AppDelegate.m in Sources */,
 				B61B8FD41ED0A8800058CCC8 /* main.m in Sources */,
