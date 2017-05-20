@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for DGActivityIndicator.
+FOUNDATION_EXPORT double DGActivityIndicatorVersionNumber;
+
+//! Project version string for DGActivityIndicator.
+FOUNDATION_EXPORT const unsigned char DGActivityIndicatorVersionString[];
+
 typedef NS_ENUM(NSUInteger, DGActivityIndicatorAnimationType) {
     DGActivityIndicatorAnimationTypeNineDots,
     DGActivityIndicatorAnimationTypeTriplePulse,
@@ -44,17 +50,23 @@ typedef NS_ENUM(NSUInteger, DGActivityIndicatorAnimationType) {
     DGActivityIndicatorAnimationTypeBallSpinFadeLoader
 };
 
+IB_DESIGNABLE
 @interface DGActivityIndicatorView : UIView
 
 - (id)initWithType:(DGActivityIndicatorAnimationType)type;
 - (id)initWithType:(DGActivityIndicatorAnimationType)type tintColor:(UIColor *)tintColor;
 - (id)initWithType:(DGActivityIndicatorAnimationType)type tintColor:(UIColor *)tintColor size:(CGFloat)size;
 
-@property (nonatomic) DGActivityIndicatorAnimationType type;
-@property (nonatomic, strong) UIColor *tintColor;
+
+#if TARGET_INTERFACE_BUILDER
+@property (nonatomic, assign) IBInspectable NSInteger type;
+#else
+@property (nonatomic, assign) DGActivityIndicatorAnimationType type;
+#endif
+
 @property (nonatomic) CGFloat size;
 
-@property (nonatomic, readonly) BOOL animating;
+@property (nonatomic, readonly, getter=isAnimating) IBInspectable BOOL animating;
 
 - (void)startAnimating;
 - (void)stopAnimating;

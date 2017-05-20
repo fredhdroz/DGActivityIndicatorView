@@ -58,7 +58,6 @@ static const CGFloat kDGActivityIndicatorDefaultSize = 40.0f;
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        _tintColor = [UIColor whiteColor];
         _size = kDGActivityIndicatorDefaultSize;
         [self commonInit];
     }
@@ -78,7 +77,7 @@ static const CGFloat kDGActivityIndicatorDefaultSize = 40.0f;
     if (self) {
         _type = type;
         _size = size;
-        _tintColor = tintColor;
+        self.tintColor = tintColor;
         [self commonInit];
     }
     return self;
@@ -104,7 +103,7 @@ static const CGFloat kDGActivityIndicatorDefaultSize = 40.0f;
     id<DGActivityIndicatorAnimationProtocol> animation = [DGActivityIndicatorView activityIndicatorAnimationForAnimationType:_type];
     
     if ([animation respondsToSelector:@selector(setupAnimationInLayer:withSize:tintColor:)]) {
-        [animation setupAnimationInLayer:_animationLayer withSize:CGSizeMake(_size, _size) tintColor:_tintColor];
+        [animation setupAnimationInLayer:_animationLayer withSize:CGSizeMake(_size, _size) tintColor:self.tintColor];
         _animationLayer.speed = 0.0f;
     }
 }
@@ -132,6 +131,11 @@ static const CGFloat kDGActivityIndicatorDefaultSize = 40.0f;
         _type = type;
         
         [self setupAnimation];
+        
+        if (self.isAnimating) {
+            [self stopAnimating];
+            [self startAnimating];
+        }
     }
 }
 
@@ -144,9 +148,10 @@ static const CGFloat kDGActivityIndicatorDefaultSize = 40.0f;
     }
 }
 
-- (void)setTintColor:(UIColor *)tintColor {
-    if (![_tintColor isEqual:tintColor]) {
-        _tintColor = tintColor;
+- (void)setTintColor:(UIColor *)tintColor
+{
+    if (![self.tintColor isEqual:tintColor]) {
+        [super setTintColor:tintColor];
         
         CGColorRef tintColorRef = tintColor.CGColor;
         for (CALayer *sublayer in _animationLayer.sublayers) {
